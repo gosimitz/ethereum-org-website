@@ -206,7 +206,7 @@ If you run this command, you should see a list of ten strings that begin with `0
 As mentioned, the tester provider has preloaded each of these accounts with some test ether. Let’s find out how much is in the first account:
 
 ```python
-In [7]: w3.eth.get_balance(w3.eth.accounts[0])
+In [7]: w3.eth.getBalance(w3.eth.accounts[0])
 Out[7]: 1000000000000000000000000
 ```
 
